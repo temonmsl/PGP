@@ -10,7 +10,7 @@ guiding mentor:[林世崧](https://github.com/pccusslin0629 "link")
   [四子棋](https://github.com/wendellgithub0206/PGP/tree/main/%E5%9B%9B%E5%AD%90%E6%A3%8B "link")
   [五子棋](https://github.com/wendellgithub0206/PGP/tree/main/%E4%BA%94%E5%AD%90%E6%A3%8B "link")
 * [影像處理](https://github.com/wendellgithub0206/PGP/tree/main/%E5%BD%B1%E5%83%8F%E8%99%95%E7%90%86 "link")
-* [機械手臂](https://github.com/wendellgithub0206/PGP/tree/main/%E6%A9%9F%E6%A2%B0%E6%89%8B%E8%87%82%E6%8E%A7%E5%88%B6 "link")
+* [機械手臂](https://github.com/wendellgithub0206/PGP/tree/main/%E6%A9%9F%E6%A2%B0%E6%89%8B%E8%87%82 "link")
 ## AI
 
 * 強化式學習<br/>
@@ -34,7 +34,7 @@ guiding mentor:[林世崧](https://github.com/pccusslin0629 "link")
 ## 影像處理
 四子棋適用於6*7的棋盤，而實際影像中框出的影像為640*480而格式為15*15棋盤，只要做3步驟就能辨識並且將任意自訂棋盤從圖片分割出來，第一步先根據棋盤顏色設定顏色的上限與下限並且利用掩模(mask)屏蔽不屬於此顏色上下限範圍的區域，第二步覆蓋屬於此顏色上下限範圍卻不是我們所需要的區域，第三步畫出輪廓確認此區域是否為我們所需要的正確區域在並且擷取出來。
 ## 機械手臂
-使用Dobot Magician提供的DobotVisionStudio開發套件能簡單的實做機器人運動之控制。
+使用Dobot Magician提供的DobotStudio開發套件能簡單的實做機器人運動之控制。
 ## Google Colab
 Google Colab是一個基於 Jupyter Notebook 的免費CPU虛擬機，透過瀏覽器即可編寫程式，當離開瀏覽器操作畫面，虛擬機上的操作資料都被清空，所以使用者不需要擔心操作不慎搞壞機器。除了資料存至雲端虛擬機上之外，還可以連接Google Drive雲端硬碟，將訓練完成的AI模型或資料科學處理的資料進行儲存，而Google Colab擁有以下幾個特點：<br/>
 1不需任何設定：瀏覽器開起Google Colab，連線完成即建立玩虛擬機，就可以使用Google Colab的功能。<br>
